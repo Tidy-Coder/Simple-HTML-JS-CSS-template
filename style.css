@@ -1,0 +1,58 @@
+body{
+  background: #050505;
+  text-align: center;
+  font-family: Helvetica;
+  color: #eee;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav{
+  text-align: left;
+  border-right: 1px solid white;
+  padding: 35px 35px 5px 25px;
+  background-color: #111;
+  overflow: auto;
+  max-height: 100vh;
+  width: fit-content;
+  max-width: 19%;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+}
+nav li{
+  list-style-type: none;
+  min-height: 35px;
+}
+main{
+  padding: 55px 5px 5px 5px;
+  flex-grow: 5;
+}
+.sectionTwo{
+  background-color: #750000;
+  padding: 55px;
+}
+#cestgratuit{
+  background-color: #111;
+  color: #aaa;
+  font-weight: bold;
+  padding: 5px;
+  justify-content: flex-end;
+  min-width: 200px;
+  width: 17%;
+  position: relative;
+  border-radius: 1em;
+  transition: 1s all;
+}
+button{
+  padding: 7px 15px;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 0.5em;
+}
+button:hover{
+  background-color: #ff5500;
+  transition: 1s all;
+  scale: 1.15;
+  box-shadow: 3px 3px 1px 0px #000;
+}
